@@ -1,0 +1,28 @@
+{
+  "name": "com.aruvr.oculus",
+  "displayName": "Oculus integration",
+  "version": "0.1.0",
+  "unity": "2021.1",
+  "description": "Oculus integration",
+  "keywords": [
+    "picoxr",
+    "xr",
+    "vr",
+    "virtual",
+    "xreditorsubsystem"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:vrtuosoio/ARuVR-App.git",
+    "directory": "com.aruvr.oculus"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@vrtuosoio"
+  },
+  "dependencies": {
+    "com.unity.xr.management": "3.2.16",
+    "com.unity.ugui": "1.0.0",
+    "com.unity.subsystemregistration": "1.0.6",
+    "com.unity.xr.interaction.toolkit": "0.9.4-preview"
+  }
+}
