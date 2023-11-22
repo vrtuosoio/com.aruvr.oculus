@@ -1,7 +1,7 @@
 {
   "name": "com.aruvr.oculus",
   "displayName": "Oculus integration",
-  "version": "0.3.0",
+  "version": "0.2.0",
   "unity": "2021.1",
   "description": "Oculus integration",
   "keywords": [
