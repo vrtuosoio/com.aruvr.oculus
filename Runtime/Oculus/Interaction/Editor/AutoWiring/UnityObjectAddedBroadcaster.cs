@@ -72,11 +72,11 @@ namespace Oculus.Interaction.Editor
             AssemblyReloadEvents.beforeAssemblyReload += handleBeforeAssemblyReload;
 
             
-            
+            /*
             for (int idx = 0; idx < SceneManager.loadedSceneCount; ++idx)
             {
                 handleSceneOpened(EditorSceneManager.GetSceneAt(idx), OpenSceneMode.Additive);
-            }
+            }*/
         }
 
         private static void HandleSceneOpened(Scene scene, OpenSceneMode mode, HashSet<int> knownIds)
